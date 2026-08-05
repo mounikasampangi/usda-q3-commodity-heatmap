@@ -6,17 +6,6 @@ Automated US heat map of Q3 (July–September) refrigerated truck fruit & vegeta
 
 ---
 
-## Setup (5 minutes)
-
-1. **Push this repo to GitHub.**
-2. **Settings → Pages → Source: GitHub Actions.**
-3. *(Optional)* **Settings → Secrets → Actions → New repository secret** named `SOCRATA_APP_TOKEN` if you have one. Not required — the AMS dataset is public — but a token raises your rate limit. Free token here: https://data.socrata.com/profile/app_tokens
-4. **Actions → Build Q3 Dashboard → Run workflow.**
-
-After ~90 seconds the heat map publishes at your Pages URL. Embed that URL in your Q3 report (iframe) or print → save as PDF for attachment.
-
----
-
 ## What it does
 
 1. Pulls every Q3 (Jul/Aug/Sep) row from the **AMS Refrigerated Truck Volumes** dataset for the last 4 complete calendar years.
